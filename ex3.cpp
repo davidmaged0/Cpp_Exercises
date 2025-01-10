@@ -10,11 +10,12 @@ namespace secondValue
 #include <iostream>
 
 int main() {
-    // Your code here
-    int x = 2;
+    //int x = 2;
+    using namespace secondValue;
+
     std::cout << x << '\n';
-    std::cout << firstValue::x << '\n'; 
-    std::cout << secondValue::x << '\n';
+    //std::cout << firstValue::x << '\n'; 
+    //std::cout << secondValue::x << '\n';
 
     return 0;
 }
