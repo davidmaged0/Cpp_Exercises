@@ -14,7 +14,7 @@ int main() {
     fnumber y = 4.54;
     cout<< name <<'\n';
     cout<< x <<'\n';
-    printf("float number = %0.4f\n", y)    
+    printf("float number = %0.4f\n", y) ;   
     /*
     number_t number =3;
     fnumber_t number2 = 4.5;
