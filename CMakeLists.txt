@@ -5,4 +5,4 @@ cmake_minimum_required(VERSION 3.10)
 project(MyCppProject LANGUAGES CXX)
 
 # Add an executable target
-add_executable(my_executable main.cpp)
+add_executable(addition_app math.cpp main.cpp)
