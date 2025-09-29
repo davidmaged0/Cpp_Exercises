@@ -24,9 +24,10 @@ void show(student s) {
 */
 class dog {
     public:
+        // attributes
         string name;
         int age;
-
+        // method
         void bark() {
             cout << name << " Woof!" << std::endl;
         }

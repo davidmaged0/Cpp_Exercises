@@ -5,10 +5,11 @@ using namespace std;
 
 class student  {
     public:
+        // attributes
         int id;
         string name;
         int age;
-
+        //  method
         void display() {
             cout << "ID: " << id << ", Name: " << name << std::endl;
         }
@@ -16,6 +17,7 @@ class student  {
     };
 
 int main() {
+    //object created s1 &s2 of class student
     student s1;
     s1.id = 101;
     s1.name = "Alice";
