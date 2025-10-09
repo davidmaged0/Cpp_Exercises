@@ -2,17 +2,26 @@
 #include <iostream>
 
 using namespace std;
+/*example using enum */
+enum Level {
+  LOW = 1,
+  MEDIUM, // 2
+  HIGH  // 3
+};
 
-int main()
-{
-    const double pi = 3.14159;
-    double radius =11;
-    double circumference = 2 * pi * radius ;
-    cout<<circumference <<"cm\n";
+int main() {
+  enum Level myVar = LOW;
 
-
-
-    return 0;
-
+  switch (myVar) {/* 1 */
+    case 1:
+      cout << "Low Level";
+      break;
+    case 2:
+      cout << "Medium level";
+      break;
+    case 3:
+      cout << "High level";
+      break;
+  }
+  return 0;
 }
-    
